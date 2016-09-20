@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C7057E97618A75E8CBA971A /* libPods-GpuImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56DA53B2E8DE1ED485013CB5 /* libPods-GpuImageDemo.a */; };
+		8D7DE9D51D90DB3500627925 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7DE9D41D90DB3500627925 /* main.m */; };
+		8D7DE9D81D90DB3500627925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7DE9D71D90DB3500627925 /* AppDelegate.m */; };
+		8D7DE9DB1D90DB3500627925 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7DE9DA1D90DB3500627925 /* ViewController.m */; };
+		8D7DE9DE1D90DB3500627925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7DE9DC1D90DB3500627925 /* Main.storyboard */; };
+		8D7DE9E01D90DB3500627925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7DE9DF1D90DB3500627925 /* Assets.xcassets */; };
+		8D7DE9E31D90DB3500627925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7DE9E11D90DB3500627925 /* LaunchScreen.storyboard */; };
+		8DCE3EF41D90DEF700480901 /* IMG_0337.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE3EF21D90DEF700480901 /* IMG_0337.jpg */; };
+		8DCE3EF51D90DEF700480901 /* IMG_0638.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE3EF31D90DEF700480901 /* IMG_0638.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56DA53B2E8DE1ED485013CB5 /* libPods-GpuImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GpuImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC1350D4BDDEB3C1F4BAE5D /* Pods-GpuImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpuImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GpuImageDemo/Pods-GpuImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8D7DE9D01D90DB3400627925 /* GpuImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpuImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D7DE9D41D90DB3500627925 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D7DE9D61D90DB3500627925 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D7DE9D71D90DB3500627925 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D7DE9D91D90DB3500627925 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D7DE9DA1D90DB3500627925 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D7DE9DD1D90DB3500627925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D7DE9DF1D90DB3500627925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D7DE9E21D90DB3500627925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D7DE9E41D90DB3500627925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCE3EF21D90DEF700480901 /* IMG_0337.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0337.jpg; sourceTree = "<group>"; };
+		8DCE3EF31D90DEF700480901 /* IMG_0638.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0638.jpg; sourceTree = "<group>"; };
+		D0F4BD7AB47721058766E165 /* Pods-GpuImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpuImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpuImageDemo/Pods-GpuImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D7DE9CD1D90DB3400627925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7057E97618A75E8CBA971A /* libPods-GpuImageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		039EAC71E95296873A085F2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EC1350D4BDDEB3C1F4BAE5D /* Pods-GpuImageDemo.debug.xcconfig */,
+				D0F4BD7AB47721058766E165 /* Pods-GpuImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		08B85FB334C9DFBF87525D8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56DA53B2E8DE1ED485013CB5 /* libPods-GpuImageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D7DE9C71D90DB3400627925 = {
+			isa = PBXGroup;
+			children = (
+				8D7DE9D21D90DB3400627925 /* GpuImageDemo */,
+				8D7DE9D11D90DB3400627925 /* Products */,
+				039EAC71E95296873A085F2B /* Pods */,
+				08B85FB334C9DFBF87525D8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D7DE9D11D90DB3400627925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D7DE9D01D90DB3400627925 /* GpuImageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D7DE9D21D90DB3400627925 /* GpuImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D7DE9D61D90DB3500627925 /* AppDelegate.h */,
+				8D7DE9D71D90DB3500627925 /* AppDelegate.m */,
+				8D7DE9D91D90DB3500627925 /* ViewController.h */,
+				8D7DE9DA1D90DB3500627925 /* ViewController.m */,
+				8D7DE9DC1D90DB3500627925 /* Main.storyboard */,
+				8D7DE9DF1D90DB3500627925 /* Assets.xcassets */,
+				8D7DE9E11D90DB3500627925 /* LaunchScreen.storyboard */,
+				8DCE3EF11D90DEF700480901 /* ImageSource */,
+				8D7DE9E41D90DB3500627925 /* Info.plist */,
+				8D7DE9D31D90DB3400627925 /* Supporting Files */,
+			);
+			path = GpuImageDemo;
+			sourceTree = "<group>";
+		};
+		8D7DE9D31D90DB3400627925 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D7DE9D41D90DB3500627925 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DCE3EF11D90DEF700480901 /* ImageSource */ = {
+			isa = PBXGroup;
+			children = (
+				8DCE3EF21D90DEF700480901 /* IMG_0337.jpg */,
+				8DCE3EF31D90DEF700480901 /* IMG_0638.jpg */,
+			);
+			path = ImageSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D7DE9CF1D90DB3400627925 /* GpuImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D7DE9E71D90DB3500627925 /* Build configuration list for PBXNativeTarget "GpuImageDemo" */;
+			buildPhases = (
+				4493EA82AF6DB9A584001D3F /* [CP] Check Pods Manifest.lock */,
+				8D7DE9CC1D90DB3400627925 /* Sources */,
+				8D7DE9CD1D90DB3400627925 /* Frameworks */,
+				8D7DE9CE1D90DB3400627925 /* Resources */,
+				DF65BF90D12634B36FF60CC5 /* [CP] Embed Pods Frameworks */,
+				3864D2FAA7C3B74E3CA71185 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GpuImageDemo;
+			productName = GpuImageDemo;
+			productReference = 8D7DE9D01D90DB3400627925 /* GpuImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D7DE9C81D90DB3400627925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘星佐";
+				TargetAttributes = {
+					8D7DE9CF1D90DB3400627925 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8D7DE9CB1D90DB3400627925 /* Build configuration list for PBXProject "GpuImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D7DE9C71D90DB3400627925;
+			productRefGroup = 8D7DE9D11D90DB3400627925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D7DE9CF1D90DB3400627925 /* GpuImageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D7DE9CE1D90DB3400627925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCE3EF41D90DEF700480901 /* IMG_0337.jpg in Resources */,
+				8DCE3EF51D90DEF700480901 /* IMG_0638.jpg in Resources */,
+				8D7DE9E31D90DB3500627925 /* LaunchScreen.storyboard in Resources */,
+				8D7DE9E01D90DB3500627925 /* Assets.xcassets in Resources */,
+				8D7DE9DE1D90DB3500627925 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3864D2FAA7C3B74E3CA71185 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GpuImageDemo/Pods-GpuImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4493EA82AF6DB9A584001D3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF65BF90D12634B36FF60CC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GpuImageDemo/Pods-GpuImageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D7DE9CC1D90DB3400627925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7DE9DB1D90DB3500627925 /* ViewController.m in Sources */,
+				8D7DE9D81D90DB3500627925 /* AppDelegate.m in Sources */,
+				8D7DE9D51D90DB3500627925 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D7DE9DC1D90DB3500627925 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D7DE9DD1D90DB3500627925 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D7DE9E11D90DB3500627925 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D7DE9E21D90DB3500627925 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D7DE9E51D90DB3500627925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D7DE9E61D90DB3500627925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D7DE9E81D90DB3500627925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC1350D4BDDEB3C1F4BAE5D /* Pods-GpuImageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GpuImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leios.GpuImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D7DE9E91D90DB3500627925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F4BD7AB47721058766E165 /* Pods-GpuImageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GpuImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = leios.GpuImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D7DE9CB1D90DB3400627925 /* Build configuration list for PBXProject "GpuImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D7DE9E51D90DB3500627925 /* Debug */,
+				8D7DE9E61D90DB3500627925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D7DE9E71D90DB3500627925 /* Build configuration list for PBXNativeTarget "GpuImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D7DE9E81D90DB3500627925 /* Debug */,
+				8D7DE9E91D90DB3500627925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D7DE9C81D90DB3400627925 /* Project object */;
+}
