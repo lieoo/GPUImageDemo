@@ -65,6 +65,13 @@
     
     [_GpuImageB setImage:[rgbfilter imageFromCurrentFramebuffer]];
     
+
+    //  高斯模糊
+//    GPUImageGaussianBlurFilter * blurFilter = [[GPUImageGaussianBlurFilter alloc] init];
+//    blurFilter.blurRadiusInPixels = 10.0;
+//    UIImage *blurredImage = [blurFilter imageByFilteringImage:oriImgB];
+//    [passthroughFilter useNextFrameForImageCapture];
+//    [_originalImageA setImage:blurredImage];
     
 }
 
