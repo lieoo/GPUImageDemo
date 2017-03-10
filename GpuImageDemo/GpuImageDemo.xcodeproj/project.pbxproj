@@ -16,6 +16,8 @@
 		8D7DE9E31D90DB3500627925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7DE9E11D90DB3500627925 /* LaunchScreen.storyboard */; };
 		8DCE3EF41D90DEF700480901 /* IMG_0337.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE3EF21D90DEF700480901 /* IMG_0337.jpg */; };
 		8DCE3EF51D90DEF700480901 /* IMG_0638.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE3EF31D90DEF700480901 /* IMG_0638.jpg */; };
+		FD043EFD1E73136F0058EA1A /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD043EFC1E73136F0058EA1A /* VideoViewController.m */; };
+		FD043F001E7314030058EA1A /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD043EFF1E7314030058EA1A /* GPUImageBeautifyFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,10 @@
 		8DCE3EF21D90DEF700480901 /* IMG_0337.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0337.jpg; sourceTree = "<group>"; };
 		8DCE3EF31D90DEF700480901 /* IMG_0638.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0638.jpg; sourceTree = "<group>"; };
 		D0F4BD7AB47721058766E165 /* Pods-GpuImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpuImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GpuImageDemo/Pods-GpuImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD043EFB1E73136F0058EA1A /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		FD043EFC1E73136F0058EA1A /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		FD043EFE1E7314030058EA1A /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		FD043EFF1E7314030058EA1A /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 				8D7DE9D71D90DB3500627925 /* AppDelegate.m */,
 				8D7DE9D91D90DB3500627925 /* ViewController.h */,
 				8D7DE9DA1D90DB3500627925 /* ViewController.m */,
+				FD043EFB1E73136F0058EA1A /* VideoViewController.h */,
+				FD043EFC1E73136F0058EA1A /* VideoViewController.m */,
+				FD043EFE1E7314030058EA1A /* GPUImageBeautifyFilter.h */,
+				FD043EFF1E7314030058EA1A /* GPUImageBeautifyFilter.m */,
 				8D7DE9DC1D90DB3500627925 /* Main.storyboard */,
 				8D7DE9DF1D90DB3500627925 /* Assets.xcassets */,
 				8D7DE9E11D90DB3500627925 /* LaunchScreen.storyboard */,
@@ -146,11 +156,12 @@
 		8D7DE9C81D90DB3400627925 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "刘星佐";
 				TargetAttributes = {
 					8D7DE9CF1D90DB3400627925 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W64HFY23KS;
 					};
 				};
 			};
@@ -241,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D7DE9DB1D90DB3500627925 /* ViewController.m in Sources */,
+				FD043F001E7314030058EA1A /* GPUImageBeautifyFilter.m in Sources */,
 				8D7DE9D81D90DB3500627925 /* AppDelegate.m in Sources */,
+				FD043EFD1E73136F0058EA1A /* VideoViewController.m in Sources */,
 				8D7DE9D51D90DB3500627925 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,8 +295,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -326,8 +341,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -355,6 +372,7 @@
 			baseConfigurationReference = 6EC1350D4BDDEB3C1F4BAE5D /* Pods-GpuImageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W64HFY23KS;
 				INFOPLIST_FILE = GpuImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = leios.GpuImageDemo;
@@ -367,6 +385,7 @@
 			baseConfigurationReference = D0F4BD7AB47721058766E165 /* Pods-GpuImageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W64HFY23KS;
 				INFOPLIST_FILE = GpuImageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = leios.GpuImageDemo;

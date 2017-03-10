@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "GPUImage.h"
+#import "VideoViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *originalImageA;
@@ -49,8 +50,6 @@
     [_GpuImageA setImage:[passthroughFilter imageFromCurrentFramebuffer]];
     
     
-    
-    
     GPUImageRGBFilter *rgbfilter = [[GPUImageRGBFilter alloc]init];
     [rgbfilter setRed:255/255];
     [rgbfilter setGreen:255/255];
@@ -74,6 +73,13 @@
 //    [_originalImageA setImage:blurredImage];
     
 }
+
+- (IBAction)intoVideoViewController:(id)sender {
+    VideoViewController *videoCtl = [[VideoViewController alloc]init];
+    [self.navigationController pushViewController:videoCtl animated:YES];
+}
+
+
 
 @end
 /*
